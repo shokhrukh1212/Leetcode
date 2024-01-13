@@ -15,6 +15,6 @@
  */
 const deleteNode = function (node) {
   let next = node.next.next;
-  node.value = node.next.value;
+  node.val = node.next.val;
   node.next = next;
 };
