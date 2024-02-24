@@ -21,7 +21,7 @@ const preorderTraversal = function (root) {
   function printValues(root, values) {
     if (root === null) return null;
 
-    values.push(root.data);
+    values.push(root.val);
 
     printValues(root.left, values);
     printValues(root.right, values);
